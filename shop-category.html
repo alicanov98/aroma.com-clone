@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/scss/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header>
+      <nav class="nav-bar">
+        <div class="container">
+          <a href="./index.html">
+            <img src="./assets/image/logo.png.webp" alt="logo" />
+          </a>
+          <div class="nav-content">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                Shop
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="./shop-category.html">Shop Category</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./product-details.html">Product Details</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./product-checkout.html">Product Checkout</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./confirmation.html">Confirmation</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./shopping-cart.html">Shopping Cart</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Blog
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
+                  <li class="dropdown-item">
+                    <a href="./blog-details.html">Blog Details</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Pages
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="./login.html">Login</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./register.html">Register</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./tracking.html">Tracking</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul class="shop-list">
+              <li class="nav-item">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </li>
+              <li class="nav-item">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </li>
+              <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
+    <!--   Main Start -->
+    <main>
+      <!-- Start Shop-home Section -->
+      <section class="shop-home">
+        <div class="container">
+          <div class="shop-home-text">
+            <h1 class="shop-home-title">Shop Category</h1>
+            <p class="shop-home-title-text">
+              <a href="./index.html">Home</a> - Shop Category
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- End Shop-home Section -->
+      <!-- Start Shop Categories Section -->
+      <section class="categories">
+        <div class="container">
+          <div class="row">
+            <div class="shop-browse">
+              <div class="title-browse">
+                <h4 class="text-browse">Browse Categories</h4>
+              </div>
+              <div class="main-categories">
+                <form action="#">
+                  <ul class="shop-categories-filter">
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="men"
+                        name="brand"
+                      />
+                      <label for="men">Men <span>(6217)</span></label>
+                    </li>
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="women"
+                        name="brand"
+                      />
+                      <label for="women">Women <span>(5454)</span></label>
+                    </li>
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="accessories"
+                        name="brand"
+                      />
+                      <label for="accessories"
+                        >Accessories <span>(6050)</span></label
+                      >
+                    </li>
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="footwear"
+                        name="brand"
+                      />
+                      <label for="footwear">Footwear<span>(3200)</span></label>
+                    </li>
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="bayItem"
+                        name="brand"
+                      />
+                      <label for="bayItem">Bay Item<span>(300)</span></label>
+                    </li>
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="electronics"
+                        name="brand"
+                      />
+                      <label for="electronics"
+                        >Electronics<span>(5000)</span></label
+                      >
+                    </li>
+                    <li class="filter-item">
+                      <input
+                        class="pixel-radio"
+                        type="radio"
+                        id="food"
+                        name="brand"
+                      />
+                      <label for="food">Food<span>(1600)</span></label>
+                    </li>
+                  </ul>
+                </form>
+              </div>
+              <div class="praduct-filters">
+                <div class="title-praduct">
+                  <h4 class="text-praduct">Product Filters</h4>
+                </div>
+                <div class="common-filters">
+                  <h4 class="common-title">Brands</h4>
+                  <form action="#">
+                    <ul class="common-praduct-filter">
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="apple"
+                          name="brand"
+                        />
+                        <label for="apple">Apple<span>(25)</span></label>
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="asus"
+                          name="brand"
+                        />
+                        <label for="asus">Asus<span>(30)</span></label>
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="gionee"
+                          name="brand"
+                        />
+                        <label for="gionee">Gionee<span>(16)</span></label>
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="micromax"
+                          name="brand"
+                        />
+                        <label for="micromax">Micromax<span>(20)</span></label>
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="samsung"
+                          name="brand"
+                        />
+                        <label for="samsung">Samsung<span>(19)</span></label>
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="common-filters">
+                  <h4 class="common-title">Color</h4>
+                  <form action="#">
+                    <ul class="common-praduct-filter">
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="black"
+                          name="brand"
+                        />
+                        <label for="black">Black<span>(10)</span></label>
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="blackLeather"
+                          name="brand"
+                        />
+                        <label for="blackLeather"
+                          >Black Leather<span>(29)</span></label
+                        >
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="blackWithRed"
+                          name="brand"
+                        />
+                        <label for="blackWithRed"
+                          >Black with red<span>(15)</span></label
+                        >
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="gold"
+                          name="brand"
+                        />
+                        <label for="gold">Micromax<span>(25)</span></label>
+                      </li>
+                      <li class="filter-item">
+                        <input
+                          class="pixel-radio"
+                          type="radio"
+                          id="spacegrey"
+                          name="brand"
+                        />
+                        <label for="spacegrey"
+                          >Spacegrey<span>(17)</span></label
+                        >
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+                <div class="common-filters">
+                  <div class="slideContainer" style="text-align: center">
+                    <p>Price:</p>
+                    <span class="multi-range">
+                      <input class="firstRange" type="range" min="0" max="50" value="5" id="lower">
+                      <input class="secondRange" type="range" min="0" max="50" value="45" id="upper">
+                  </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="shop-categories-card-box">
+              <div class="card-box-header">
+                <div class="card-left">
+                  <div class="card-sorting">
+                    <select id="sorting">
+                      <option class="sorting-opt" value="1">
+                        Default Sorting
+                      </option>
+                      <option class="sorting-opt" value="1">
+                        Default Sorting
+                      </option>
+                      <option class="sorting-opt" value="1">
+                        Default Sorting
+                      </option>
+                    </select>
+                  </div>
+                  <div class="card-sorting">
+                    <select id="sorting">
+                      <option class="sorting-opt" value="1">Show 10</option>
+                      <option class="sorting-opt" value="1">Show 11</option>
+                      <option class="sorting-opt" value="1">Show 12</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="card-Search">
+                  <div class="card-input-search">
+                    <input
+                      class="input-search"
+                      type="text"
+                      placeholder="Search"
+                    />
+                  </div>
+                  <div class="card-btn-search">
+                    <button class="btn-search">
+                      <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="shop-main">
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product1.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Accessories</p>
+                    <h4><a href="./index.html">Quartz Belt Watch</a></h4>
+                    <p class="price">$150.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product2.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Decor</p>
+                    <h4><a href="./index.html">Women Freshwash</a></h4>
+                    <p class="price">$120.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product3.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Decor</p>
+                    <h4><a href="./index.html">Room Flash Light</a></h4>
+                    <p class="price">$170.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product4.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Decor</p>
+                    <h4><a href="./index.html">Room Flash Light</a></h4>
+                    <p class="price">$160.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product5.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Kids Toy</p>
+                    <h4><a href="./index.html">Man Office Bag</a></h4>
+                    <p class="price">$90.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product6.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Accessories</p>
+                    <h4><a href="./index.html">Charging Car</a></h4>
+                    <p class="price">$200.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product7.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Accessories</p>
+                    <h4><a href="./index.html">Blutooth Speaker</a></h4>
+                    <p class="price">$260.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product1.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Accessories</p>
+                    <h4><a href="./index.html">Quartz Belt Watch</a></h4>
+                    <p class="price">$150.00</p>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="card-image">
+                    <img src="./assets/image/product8.png.webp" alt="image" />
+                    <ul class="product-list">
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button>
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                      </li>
+                      <li class="product-item">
+                        <button><i class="fa-solid fa-heart"></i></button>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="card-content">
+                    <p>Kids Toy</p>
+                    <h4><a href="./index.html">Charging Car</a></h4>
+                    <p class="price">$150.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Shop Categories Section -->
+      <!-- Subscribe Section Start -->
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-card">
+            <h3 class="subscribe-title">Get Update From Anywhere</h3>
+            <p class="subscribe-content">
+              Bearing Void gathering light light his eavening unto dont afraid
+            </p>
+            <form class="subscribe-form">
+              <div class="subscribe-signUp">
+                <input
+                  class="subscribe-input"
+                  type="email"
+                  name="EMAIL"
+                  placeholder="Your Email Address "
+                  required
+                />
+                <div class="info"></div>
+              </div>
+              <button class="subscribe-btn" onclick="btnOnClick()">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Subscribe Section End -->
+    </main>
+    <!--   Main End   -->
+    <!-- ------------ -->
+    <!-- Footer Start -->
+
+    <footer>
+      <div class="container">
+        <div class="footer-card-box">
+          <div class="mission-card">
+            <h4>Our Mission</h4>
+            <p>
+              So seed seed green that winged cattle in. Gathering thing made fly
+              you're no divided deep moved us lan Gathering thing us land years
+              living.
+            </p>
+            <p>
+              So seed seed green that winged cattle in. Gathering thing made fly
+              you're no divided deep moved
+            </p>
+          </div>
+          <div class="quick-links-card">
+            <div class="quick-content">
+              <h4 class="quick-title">Quick Links</h4>
+              <ul class="quick-list">
+                <li class="quick-item"><a href="./index.html">Home</a></li>
+                <li class="quick-item">
+                  <a class="active" href="./shop-category.html">Shop</a>
+                </li>
+                <li class="quick-item"><a href="#">Blog</a></li>
+                <li class="quick-item"><a href="#">Product</a></li>
+                <li class="quick-item"><a href="#">Brand</a></li>
+                <li class="quick-item"><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="gallery">
+            <h4 class="gallery-title">Gallery</h4>
+            <ul class="gallery-list">
+              <li class="gallery-item">
+                <img src="./assets/image/r1.jpg.webp" alt="img-gallery" />
+              </li>
+              <li class="gallery-item">
+                <img src="./assets/image/r2.jpg.webp" alt="img-gallery" />
+              </li>
+              <li class="gallery-item">
+                <img src="./assets/image/r3.jpg.webp" alt="img-gallery" />
+              </li>
+              <li class="gallery-item">
+                <img src="./assets/image/r5.jpg.webp" alt="img-gallery" />
+              </li>
+              <li class="gallery-item">
+                <img src="./assets/image/r7.jpg.webp" alt="img-gallery" />
+              </li>
+              <li class="gallery-item">
+                <img src="./assets/image/r8.jpg.webp" alt="img-gallery" />
+              </li>
+            </ul>
+          </div>
+          <div class="contact">
+            <h4 class="contact-title">Contact Us</h4>
+            <div class="contact-content">
+              <p class="icon-contact">
+                <span><i class="fa-solid fa-location-arrow"></i></span>Head
+                Office
+              </p>
+              <p class="contact-item">123, Main Street, Your City</p>
+              <p class="icon-contact">
+                <span><i class="fa-solid fa-phone-flip"></i> </span> Phone
+                Number
+              </p>
+              <p class="contact-item">
+                +123 456 7890
+                <br />
+                +123 456 7890
+              </p>
+              <p class="icon-contact">
+                <span><i class="fa-solid fa-envelope"></i></span> Email
+              </p>
+              <p>
+                free@infoexample.com
+                <br />
+                www.infoexample.com
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- --------------- -->
+    <!-- My JS Start-->
+    <script src="./assets/js/main.js"></script>
+    <!--    My JS End    -->
+    <!-- --------------- -->
+    <!--Fontawesome Start-->
+    <script
+      src="https://kit.fontawesome.com/4679a6cec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Fontawesome End-->
+  </body>
+</html>
