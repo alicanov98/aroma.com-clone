@@ -1,0 +1,147 @@
+.product-image {
+  padding: 112px 0;
+  .container {
+    .product-image-card-box {
+      width: 100%;
+      display: flex;
+      .image {
+        width: 50%;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+      .product-card-content {
+        width: 50%;
+        margin-left: 8.333333%;
+        .product-cart-text {
+          margin-left: -15px;
+          margin-top: 65px;
+          h3 {
+            font-size: 24px;
+            font-weight: 500;
+            color: #222;
+            margin-bottom: 20px;
+            font-family: "Oswald", sans-serif;
+            line-height: 1.1;
+          }
+          h2 {
+            font-size: 24px;
+            font-weight: 700;
+            color: #384aeb;
+            margin-bottom: 10px;
+            line-height: 1.1;
+          }
+          .details-list {
+            .details-item {
+              margin-bottom: 5px;
+              a {
+                cursor: pointer;
+                line-height: 1.667;
+                font-size: 15px;
+                font-weight: normal;
+                color: #777777;
+                span {
+                  color: #555;
+                  width: 90px;
+                  display: inline-block;
+                }
+              }
+            }
+          }
+          .text-content {
+            padding-top: 20px;
+            border-top: 1px dotted #eeeeee;
+            border-bottom: 1px dotted #eeeeee;
+            margin-top: 20px;
+            padding-bottom: 26px;
+            margin-bottom: 0;
+          }
+          .details-content {
+            display: flex;
+            align-items: center;
+            display: inline-block;
+            position: relative;
+            margin-bottom: 24px;
+            display: flex;
+            label {
+              font-size: 14px;
+              color: #777;
+              font-weight: normal;
+              padding-right: 10px;
+              line-height: 1.667;
+            }
+            .btn-input {
+              .icon-right-left {
+                border: none;
+                background: transparent;
+                cursor: pointer;
+                right: 0px;
+                font-size: 14px;
+                .fa-solid {
+                  font-size: 14px;
+                  color: #cccccc;
+                  cursor: pointer;
+                  transition: all 0.3s ease 0s;
+                  margin: 0 5px ;
+                  &:hover {
+                    color: #222;
+                  }
+                }
+              }
+              .input-text{
+                width: 76px;
+                border: 1px solid #eeeeee;
+                border-radius: 3px;
+                padding-left: 10px;
+                margin: 0;
+                font-family: inherit;
+                font-size: inherit;
+                line-height: inherit;
+              }
+            }
+            .btn-addToCart{
+                margin-left: 20px;
+                display: inline-block;
+                border: 1px solid #384aeb;
+                border-radius: 30px;
+                font-weight: 500;
+                padding: 12px 50px;
+                transition: all .4s ease;
+                color: #fff;
+                background-color: #384aeb;
+                &:hover{
+                    background: transparent;
+                    border-color: #384aeb;
+                    color: #222;
+                }
+            }
+          }
+          .icon-btn-cont{
+                margin-top: 25px;
+                align-items: center;
+                .icon-btn{
+                height: 40px;
+                width: 40px;
+                text-align: center;
+                background: #e8f0f2;
+                border-radius: 3px;
+                display: inline-block;
+                color: #222;
+                transition: all 0.3s ease 0s;
+                margin-right: 10px;
+
+                .fa-regular{
+                    line-height: 40px;
+                }
+                &:hover{
+                    background: #fff;
+                    box-shadow: 0px 10px 20px 0px rgb(153 153 153 / 30%);
+                }
+            }
+          }
+        }
+      }
+    }
+  }
+}

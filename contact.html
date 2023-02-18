@@ -47,14 +47,19 @@
                         <li class="dropdown-item"><a href="./tracking.html">Tracking</a></li>
                       </ul>
                     </li>
-                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="active" href="./contact.html">Contact</a></li>
                   </ul>
                   <ul class="shop-list">
                     <li class="nav-item">
-                      <i class="fa-solid fa-magnifying-glass"></i>
+                      <input type="search" id="search" placeholder="SEARCH" class="search">
+                      <i id="glass" class="fa-solid fa-magnifying-glass" onclick="openCart()"></i>
                     </li>
                     <li class="nav-item">
-                      <i class="fa-solid fa-cart-shopping"></i>
+                      <i id="shopping" class="fa-solid fa-cart-shopping" onclick="openDropdown()" ></i>
+                      <ul class="dropDown-shop">
+                        <li class="dropDown-item"></li>
+                        <p class="empty">Cart is Empty</p>
+                      </ul>
                     </li>
                     <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
                   </ul>
@@ -65,7 +70,16 @@
           <!-- Header End -->
     <!--   Main Start -->
     <main>
-        <h1 style="padding: 110px 0; text-align: center; align-items:center ;">Contact</h1>
+      <section class="shop-home">
+        <div class="container">
+          <div class="shop-home-text">
+            <h1 class="shop-home-title">Contact Us</h1>
+            <p class="shop-home-title-text">
+              <a href="./index.html">Home</a> - Contact Us
+            </p>
+          </div>
+        </div>
+      </section>
            <!-- Subscribe Section Start -->
       <section class="subscribe">
         <div class="container">

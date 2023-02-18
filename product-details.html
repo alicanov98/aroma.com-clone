@@ -8,65 +8,156 @@
     <title>Document</title>
   </head>
   <body>
-        <!-- Header Start -->
-        <header>
-            <nav class="nav-bar">
-              <div class="container">
-                <a href="./index.html">
-                  <img src="./assets/image/logo.png.webp" alt="logo" />
-                </a>
-                <div class="nav-content">
-                  <ul class="nav-list">
-                    <li class="nav-item">
-                      <a  href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      Shop
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./shop-category.html">Shop Category</a></li>
-                        <li class="dropdown-item"><a href="./product-details.html">Product Details</a></li>
-                        <li class="dropdown-item">
-                          <a href="./product-checkout.html">Product Checkout</a>
-                        </li>
-                        <li class="dropdown-item"><a href="./confirmation.html">Confirmation</a></li>
-                        <li class="dropdown-item"><a href="./shopping-cart.html">Shopping Cart</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      Blog
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
-                        <li class="dropdown-item"><a href="./blog-details.html">Blog Details</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      Pages
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./login.html">Login</a></li>
-                        <li class="dropdown-item"><a href="./register.html">Register</a></li>
-                        <li class="dropdown-item"><a href="./tracking.html">Tracking</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
-                  </ul>
-                  <ul class="shop-list">
-                    <li class="nav-item">
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </li>
-                    <li class="nav-item">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </li>
-                    <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
-          <!-- Header End -->
+    <!-- Header Start -->
+    <header>
+      <nav class="nav-bar">
+        <div class="container">
+          <a href="./index.html">
+            <img src="./assets/image/logo.png.webp" alt="logo" />
+          </a>
+          <div class="nav-content">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                Shop
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="./shop-category.html">Shop Category</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./product-details.html">Product Details</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./product-checkout.html">Product Checkout</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./confirmation.html">Confirmation</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./shopping-cart.html">Shopping Cart</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Blog
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
+                  <li class="dropdown-item">
+                    <a href="./blog-details.html">Blog Details</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Pages
+                <ul class="dropdown-list">
+                  <li class="dropdown-item">
+                    <a href="./login.html">Login</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./register.html">Register</a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a href="./tracking.html">Tracking</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul class="shop-list">
+              <li class="nav-item">
+                <input
+                  type="search"
+                  id="search"
+                  placeholder="SEARCH"
+                  class="search"
+                />
+                <i
+                  id="glass"
+                  class="fa-solid fa-magnifying-glass"
+                  onclick="openCart()"
+                ></i>
+              </li>
+              <li class="nav-item">
+                <i
+                  id="shopping"
+                  class="fa-solid fa-cart-shopping"
+                  onclick="openDropdown()"
+                ></i>
+                <ul class="dropDown-shop">
+                  <li class="dropDown-item"></li>
+                  <p class="empty">Cart is Empty</p>
+                </ul>
+              </li>
+              <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header End -->
     <!--   Main Start -->
     <main>
-        <h1 style="padding: 110px 0; text-align: center; align-items:center ;">Product Details</h1>
-           <!-- Subscribe Section Start -->
+      <!-- HOME TITLE SECTION -->
+      <section class="shop-home">
+        <div class="container">
+          <div class="shop-home-text">
+            <h1 class="shop-home-title">Shop Single</h1>
+            <p class="shop-home-title-text">
+              <a href="./index.html">Home</a> - Shop Single
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- HOME TITLE SECTION -->
+      <section class="product-image">
+        <div class="container">
+          <div class="product-image-card-box">
+            <div class="image">
+              <img src="./assets/image/product1.png.webp" alt="image" />
+            </div>
+            <div class="product-card-content">
+              <div class="product-cart-text">
+                <h3>Faded SkyBlu Denim Jeans</h3>
+                <h2>$149.99</h2>
+                <ul class="details-list">
+                  <li class="details-item">
+                    <a  href="#"
+                      ><span>Category</span>: Household</a
+                    >
+                  </li>
+                  <li class="details-item">
+                    <a  href="#"
+                      ><span>Availibility</span>: In Stock</a
+                    >
+                  </li>
+                </ul>
+                <p class="text-content">
+                  Mill Oil is an innovative oil filled radiator with the most
+                  modern technology. If you are looking for something that can
+                  make your interior look awesome, and at the same time give you
+                  the pleasant warm feeling during the winter.
+                </p>
+                <div class="details-content">
+                  <label for="qty">Quantity:</label>
+                 <div class="btn-input">
+                  <button class="icon-right-left"><i class="fa-solid fa-chevron-left"></i></button>
+                  <input class="input-text qty" title="Quantity:"size="2" id="sst" name="qty" value="1" type="text" maxlength="12">
+                  <button class="icon-right-left"><i class="fa-solid fa-chevron-right"></i></button>
+                 </div>
+                  <a href="#" class="btn-addToCart">Add to Cart</a>
+                </div>
+                <div class="icon-btn-cont">
+                  <a href="#" class="icon-btn"><i class="fa-regular fa-gem"></i></a>
+                  <a href="#" class="icon-btn"><i class="fa-regular fa-heart"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Subscribe Section Start -->
       <section class="subscribe">
         <div class="container">
           <div class="subscribe-card">
@@ -118,7 +209,9 @@
               <h4 class="quick-title">Quick Links</h4>
               <ul class="quick-list">
                 <li class="quick-item"><a href="./index.html">Home</a></li>
-                <li class="quick-item"><a href="./shop-category.html">Shop</a></li>
+                <li class="quick-item">
+                  <a href="./shop-category.html">Shop</a>
+                </li>
                 <li class="quick-item"><a href="">Blog</a></li>
                 <li class="quick-item"><a href="#">Product</a></li>
                 <li class="quick-item"><a href="#">Brand</a></li>
@@ -180,18 +273,18 @@
       </div>
     </footer>
     <!-- Footer End -->
-        <!-- ---------- -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <!-- --------------- -->
-        <!-- My JS Start-->
-        <script src="./assets/js/main.js"></script>
-        <!--    My JS End    -->
-        <!-- --------------- -->
-        <!--Fontawesome Start-->
-        <script
-          src="https://kit.fontawesome.com/4679a6cec2.js"
-          crossorigin="anonymous"
-        ></script>
-        <!--Fontawesome End-->
+    <!-- ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- --------------- -->
+    <!-- My JS Start-->
+    <script src="./assets/js/main.js"></script>
+    <!--    My JS End    -->
+    <!-- --------------- -->
+    <!--Fontawesome Start-->
+    <script
+      src="https://kit.fontawesome.com/4679a6cec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Fontawesome End-->
   </body>
 </html>
