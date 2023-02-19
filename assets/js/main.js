@@ -65,5 +65,26 @@ function btnOnClick() {
   } else {
     info.innerHTML = "Submitting...";
   }
+}
 
+let search = false;
+function openCart() {
+  if (search == false) {
+    document.querySelector(".search").classList.add("active");
+    search = true;
+  } else {
+    document.querySelector(".search").classList.remove("active");
+    search = false;
+  }
+}
+
+isOpen = false;
+function openDropdown() {
+  if (isOpen == false) {
+    document.querySelector(".dropDown-shop").classList.add("active");
+    isOpen = true;
+  } else {
+    document.querySelector(".dropDown-shop").classList.remove("active");
+    isOpen = false;
+  }
 }

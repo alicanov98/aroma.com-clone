@@ -407,5 +407,89 @@ main {
 }
 
 // End Shop Categories Section
+// Top Product Section Start
+.top-product{
+  width: 100%;
+  .container{
 
+    .product-title {
+      text-align: left;
+      padding-bottom: 60px;
+
+      p {
+        margin-bottom: 3px;
+      }
+      h2 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #222;
+        line-height: 1.1;
+        margin-bottom: 8px;
+        span {
+          border-bottom: 2px solid #384aeb;
+          padding-bottom: 8px;
+        }
+      }
+    }
+  }
+
+  .top-product-cart-box{
+width: 100%;
+  display: flex;
+
+  .top-card{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  .card{
+    width: 100%;
+  .card-list{
+      padding: 12px 20px 10px 30px; 
+        border: 1px solid #EEEEEE;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        .card-item{
+          padding: 20px 0;
+         display: flex;
+         .image{
+          cursor: pointer;
+          img{
+            max-width: 70px;
+            height: auto;
+          }
+         }
+         .top-card-content{
+          margin-left: 15px;
+          margin-top: 5px;
+          .text-card{
+            display: flex;
+            flex-direction: column;
+            h4{
+              cursor: pointer;
+              font-family: 'Oswald', sans-serif;
+              color: #222;
+              margin-bottom: 0;
+              display: inline-block;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 1.667;
+              &:hover{
+                color: #0056b3;
+              }
+            }
+            span{
+              font-size: 16px;
+              font-weight: 500;
+              color: #777777;
+            }
+          }
+         }
+        }
+      }
+    }
+}
+  }
+}
+// Top Product Section End
 // END MAIN

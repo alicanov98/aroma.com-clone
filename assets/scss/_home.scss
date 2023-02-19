@@ -101,6 +101,53 @@ header {
           gap: 20px;
           .nav-item {
             cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            #shopping{
+              position: relative;
+            }
+            .dropDown-shop{
+              position: absolute;
+              width: 12%;
+              height: 100%;
+              top: 100px;
+              z-index: 1;
+              border-radius: 5px;
+              border: #999999 solid 1px;
+              box-shadow:  1px 0px 3px 0px rgba(0, 0, 0, 0.75);
+              background-color: #fff;
+              display: none;
+              .empty{
+              margin-top: 35px;
+                text-align: center;
+                color: #384aeb;
+                font-size: 18px;
+                font-family: "Oswald", sans-serif;
+              }
+              }
+              #glass{
+                position: relative;
+              }
+              .search{
+              position: absolute;
+              z-index: 1;
+              width: 30%;
+              right: 34%;
+              top: 20px;
+              padding: 25px ;
+              border: #495057;
+              border-radius: 10px;
+              font-size: 20px;
+              line-height: 1.4;
+              font-weight: 500;
+              color: #384aeb;
+              text-align: center;
+              display: none;
+              }
+              .active{
+                display: block;
+              }
             .fa-solid {
               color: #222;
             }
@@ -735,9 +782,9 @@ main {
           display: flex;
           align-items: center;
           justify-content: center;
-          .subscribe-signUp{
+          .subscribe-signUp {
             position: relative;
-            .subscribe-input{
+            .subscribe-input {
               min-width: 380px;
               border-radius: 30px;
               height: 50px;
@@ -751,16 +798,16 @@ main {
               border: 1px solid #ced4da;
               transition: border-color 0.15s ease-in-out,
                 box-shadow 0.15s ease-in-out;
-                margin-right: 15px;
+              margin-right: 15px;
               &:focus {
                 outline: 0;
                 color: #495057;
                 background-color: #fff;
               }
             }
-            .info{
+            .info {
               position: absolute;
-             left: 10px;
+              left: 10px;
               position: absolute;
               top: 55px;
               color: #384aeb;
@@ -839,7 +886,7 @@ footer {
                 color: #7b838a;
                 font-family: "Roboto", sans-serif;
                 background-color: transparent;
-                transition: all ease .5s;
+                transition: all ease 0.5s;
                 &:hover {
                   color: #384aeb;
                 }
@@ -898,9 +945,8 @@ footer {
               font-weight: 900;
             }
           }
-          .contact-item{
-            
-    color: #7b838a;
+          .contact-item {
+            color: #7b838a;
             margin-bottom: 15px;
           }
         }
