@@ -99,7 +99,7 @@
     <!-- Header End -->
     <!--   Main Start -->
     <main>
-      <!-- HOME TITLE SECTION -->
+      <!-- HOME TITLE SECTION  START-->
       <section class="shop-home">
         <div class="container">
           <div class="shop-home-text">
@@ -110,7 +110,8 @@
           </div>
         </div>
       </section>
-      <!-- HOME TITLE SECTION -->
+      <!-- HOME TITLE SECTION END -->
+      <!-- Praduct-Image Section Start -->
       <section class="product-image">
         <div class="container">
           <div class="product-image-card-box">
@@ -123,14 +124,10 @@
                 <h2>$149.99</h2>
                 <ul class="details-list">
                   <li class="details-item">
-                    <a  href="#"
-                      ><span>Category</span>: Household</a
-                    >
+                    <a href="#"><span>Category</span>: Household</a>
                   </li>
                   <li class="details-item">
-                    <a  href="#"
-                      ><span>Availibility</span>: In Stock</a
-                    >
+                    <a href="#"><span>Availibility</span>: In Stock</a>
                   </li>
                 </ul>
                 <p class="text-content">
@@ -141,22 +138,715 @@
                 </p>
                 <div class="details-content">
                   <label for="qty">Quantity:</label>
-                 <div class="btn-input">
-                  <button class="icon-right-left"><i class="fa-solid fa-chevron-left"></i></button>
-                  <input class="input-text qty" title="Quantity:"size="2" id="sst" name="qty" value="1" type="text" maxlength="12">
-                  <button class="icon-right-left"><i class="fa-solid fa-chevron-right"></i></button>
-                 </div>
+                  <div class="btn-input">
+                    <button class="icon-right-left" onclick="decrement()">
+                      <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <input
+                      class="input-text"
+                      title="Quantity:"
+                      size="2"
+                      id="qty"
+                      name="qty"
+                      value="1"
+                      type="number"
+                      maxlength="12"
+                    />
+                    <button class="icon-right-left" onclick="increment()">
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                  </div>
                   <a href="#" class="btn-addToCart">Add to Cart</a>
                 </div>
                 <div class="icon-btn-cont">
-                  <a href="#" class="icon-btn"><i class="fa-regular fa-gem"></i></a>
-                  <a href="#" class="icon-btn"><i class="fa-regular fa-heart"></i></a>
+                  <a href="#" class="icon-btn"
+                    ><i class="fa-regular fa-gem"></i
+                  ></a>
+                  <a href="#" class="icon-btn"
+                    ><i class="fa-regular fa-heart"></i
+                  ></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- Praduct-Image Section End -->
+      <!-- Description Section Start -->
+      <section class="description-acordion">
+        <div class="container">
+          <section class="accordion">
+            <section class="accordion-tabs">
+              <button
+                class="accordion-tab accordion-active"
+                data-actab-group="0"
+                data-actab-id="0"
+              >
+                Description
+              </button>
+              <button
+                class="accordion-tab"
+                data-actab-group="0"
+                data-actab-id="1"
+              >
+                Specification
+              </button>
+              <button
+                class="accordion-tab"
+                data-actab-group="0"
+                data-actab-id="2"
+              >
+                Comments
+              </button>
+              <button
+                class="accordion-tab"
+                data-actab-group="0"
+                data-actab-id="4"
+              >
+                Reviews
+              </button>
+            </section>
+            <section class="accordion-content">
+              <article
+                class="accordion-item accordion-active"
+                data-actab-group="0"
+                data-actab-id="0"
+              >
+                <h4 class="accordion-item__label"></h4>
+                <div class="accordion-item__container">
+                  <p>
+                    Beryl Cook is one of Britain’s most talented and amusing
+                    artists .Beryl’s pictures feature women of all shapes and
+                    sizes enjoying themselves .Born between the two world wars,
+                    Beryl Cook eventually left Kendrick School in Reading at the
+                    age of 15, where she went to secretarial school and then
+                    into an insurance office. After moving to London and then
+                    Hampton, she eventually married her next door neighbour from
+                    Reading, John Cook. He was an officer in the Merchant Navy
+                    and after he left the sea in 1956, they bought a pub for a
+                    year before John took a job in Southern Rhodesia with a
+                    motor company. Beryl bought their young son a box of
+                    watercolours, and when showing him how to use it, she
+                    decided that she herself quite enjoyed painting. John
+                    subsequently bought her a child’s painting set for her
+                    birthday and it was with this that she produced her first
+                    significant work, a half-length portrait of a dark-skinned
+                    lady with a vacant expression and large drooping breasts. It
+                    was aptly named ‘Hangover’ by Beryl’s husband and It is
+                    often frustrating to attempt to plan meals that are designed
+                    for one. Despite this fact, we are seeing more and more
+                    recipe books and Internet websites that are dedicated to the
+                    act of cooking for one. Divorce and the death of spouses or
+                    grown children leaving for college are all reasons that
+                    someone accustomed to cooking for more than one would
+                    suddenly need to learn how to adjust all the cooking
+                    practices utilized before into a streamlined plan of cooking
+                    that is more efficient for one person creating less
+                  </p>
+                </div>
+              </article>
+              <article
+                class="accordion-item"
+                data-actab-group="0"
+                data-actab-id="1"
+              >
+                <h4 class="accordion-item__label"></h4>
+                <div class="accordion-item__container">
+                  <table>
+                    <tr>
+                      <td>
+                        <h5>Width</h5>
+                      </td>
+                      <td><h5>128mm</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Height</h5>
+                      </td>
+                      <td><h5>508mm</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Depth</h5>
+                      </td>
+                      <td><h5>85mm</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Weight</h5>
+                      </td>
+                      <td><h5>52gm</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Quality checking</h5>
+                      </td>
+                      <td><h5>yes</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Freshness Duration</h5>
+                      </td>
+                      <td><h5>03days</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>When packeting</h5>
+                      </td>
+                      <td><h5>Without touch of hand</h5></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <h5>Each Box contains</h5>
+                      </td>
+                      <td><h5>60pcs</h5></td>
+                    </tr>
+                  </table>
+                </div>
+              </article>
+              <article
+                class="accordion-item"
+                data-actab-group="0"
+                data-actab-id="2"
+              >
+                <h4 class="accordion-item__label"></h4>
+                <div class="accordion-item__container">
+                  <div class="accordion-card-box">
+                    <div class="acordion-card">
+                      <div class="card-item">
+                        <div class="card-top">
+                          <div class="card-top-image">
+                            <img
+                              src="./assets/image/review-1.png.webp"
+                              alt="image"
+                            />
+                          </div>
+                          <div class="card-top-body">
+                            <div class="card-top-text">
+                              <h4>Blake Ruiz</h4>
+                              <h5>12th Feb, 2018 at 05:56 pm</h5>
+                            </div>
+                            <a href="#">Reply</a>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                      <div class="card-item" style="padding-left: 28px">
+                        <div class="card-top">
+                          <div class="card-top-image">
+                            <img
+                              src="./assets/image/review-2.png.webp"
+                              alt="image"
+                            />
+                          </div>
+                          <div class="card-top-body">
+                            <div class="card-top-text">
+                              <h4>Blake Ruiz</h4>
+                              <h5>12th Feb, 2018 at 05:56 pm</h5>
+                            </div>
+                            <a href="#">Reply</a>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                      <div class="card-item">
+                        <div class="card-top">
+                          <div class="card-top-image">
+                            <img
+                              src="./assets/image/review-3.png.webp"
+                              alt="image"
+                            />
+                          </div>
+                          <div class="card-top-body">
+                            <div class="card-top-text">
+                              <h4>Blake Ruiz</h4>
+                              <h5>12th Feb, 2018 at 05:56 pm</h5>
+                            </div>
+                            <a href="#">Reply</a>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-form">
+                      <h4>Post a comment</h4>
+                      <form class="accordion-form-control">
+                        <input
+                          type="text"
+                          placeholder="Your Full name"
+                          name="name"
+                          id="name"
+                          class="form-control"
+                        />
+                        <input
+                          type="email"
+                          placeholder="Email Address"
+                          id="email"
+                          name="email"
+                          class="form-control"
+                        />
+                        <input
+                          type="email"
+                          placeholder="Phone Number"
+                          id="Numberl"
+                          name="Number"
+                          class="form-control"
+                        />
+                        <textarea
+                          name="message"
+                          id="message"
+                          placeholder="Message"
+                          rows="1"
+                          class="form-control message"
+                        ></textarea>
+                        <button type="submit" value="submit" class="btn-now">
+                          Submit Now
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article
+                class="accordion-item"
+                data-actab-group="0"
+                data-actab-id="4"
+              >
+                <h4 class="accordion-item__label"></h4>
+                <div class="accordion-item__container">
+                  <div class="accordion-card-box">
+                    <div class="acordion-card">
+                      <div class="total-rate">
+                        <div class="box-total-left">
+                          <div class="box-total">
+                            <h5>Overall</h5>
+                            <h4>4.0</h4>
+                            <h6>(03 Reviews)</h6>
+                          </div>
+                        </div>
+                        <div class="box-total-right">
+                          <div class="rating-list">
+                            <h3>Based on 3 Reviews</h3>
+                            <ul class="review-raiting">
+                              <li class="rating-item">
+                                <a href="#">
+                                  5 Star
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  05
+                                </a>
+                              </li>
+                              <li class="rating-item">
+                                <a href="#">
+                                  4 Star
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  04
+                                </a>
+                              </li>
+                              <li class="rating-item">
+                                <a href="#">
+                                  3 Star
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  03
+                                </a>
+                              </li>
+                              <li class="rating-item">
+                                <a href="#">
+                                  2 Star
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  02
+                                </a>
+                              </li>
+                              <li class="rating-item">
+                                <a href="#">
+                                  1 Star
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  01
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-item">
+                        <div class="card-top">
+                          <div class="card-top-image">
+                            <img
+                              src="./assets/image/review-1.png.webp"
+                              alt="image"
+                            />
+                          </div>
+                          <div class="card-top-body">
+                            <div class="card-top-text">
+                              <h4>Blake Ruiz</h4>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                      <div class="card-item">
+                        <div class="card-top">
+                          <div class="card-top-image">
+                            <img
+                              src="./assets/image/review-2.png.webp"
+                              alt="image"
+                            />
+                          </div>
+                          <div class="card-top-body">
+                            <div class="card-top-text">
+                              <h4>Blake Ruiz</h4>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                      <div class="card-item">
+                        <div class="card-top">
+                          <div class="card-top-image">
+                            <img
+                              src="./assets/image/review-3.png.webp"
+                              alt="image"
+                            />
+                          </div>
+                          <div class="card-top-body">
+                            <div class="card-top-text">
+                              <h4>Blake Ruiz</h4>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing
+                          elit, sed do eiusmod tempor incididunt ut labore et
+                          dolore magna aliqua. Ut enim ad minim veniam, quis
+                          nostrud exercitation ullamco laboris nisi ut aliquip
+                          ex ea commodo
+                        </p>
+                      </div>
+                    </div>
+                    <div class="accordion-form">
+                      <h4>Add a Review</h4>
+                      <div class="form-title-text">
+                        <p class="text-star">Your Rating:</p>
+                        <ul>
+                          <li>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                          </li>
+                          <li>
+                            <a href="#"><i class="fa-solid fa-star"></i></a>
+                          </li>
+                        </ul>
+                        <p class="text-star">Outstanding</p>
+                      </div>
+                      <form class="accordion-form-control">
+                        <input
+                          type="text"
+                          placeholder="Enter your name"
+                          name="name"
+                          id="name"
+                          class="form-control input-review"
+                        />
+                        <input
+                          type="email"
+                          placeholder="Enter email address"
+                          id="email"
+                          name="email"
+                          class="form-control input-review"
+                        />
+                        <input
+                          type="email"
+                          placeholder="Enter Subject"
+                          id="Numberl"
+                          name="Number"
+                          class="form-control input-review"
+                        />
+                        <textarea
+                          name="message"
+                          id="message"
+                          placeholder="Enter Message"
+                          rows="1"
+                          class="form-control input-review message-review"
+                        ></textarea>
+                        <button type="submit" value="submit" class="btn-review">
+                          Submit Now
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </section>
+          </section>
+        </div>
+      </section>
+      <!-- Description Section End -->
+            <!--Top Product Section Start-->
+            <section class="top-product">
+              <div class="container">
+                <div class="product-title">
+                  <p>Popular Item in the market</p>
+                  <h2>
+                    Top
+                    <span>Product</span>
+                  </h2>
+                </div>
+                <div class="top-product-cart-box">
+                  <div class="top-card">
+                    <div class="card">
+                      <ul class="card-list">
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-1.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-2.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-3.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="top-card">
+                    <div class="card">
+                      <ul class="card-list">
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-4.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-5.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-6.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="top-card">
+                    <div class="card">
+                      <ul class="card-list">
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-7.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-8.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-9.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="top-card">
+                    <div class="card">
+                      <ul class="card-list">
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-1.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-2.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                        <li class="card-item">
+                          <a href="#" class="image"
+                            ><img
+                              src="./assets/image/product-sm-3.png.webp"
+                              alt="image"
+                          /></a>
+                          <div class="top-card-content">
+                            <a href="#" class="text-card">
+                              <h4>Gray Coffee Cup</h4>
+                              <span>$170.00</span>
+                            </a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--Top Product Section End-->
       <!-- Subscribe Section Start -->
       <section class="subscribe">
         <div class="container">

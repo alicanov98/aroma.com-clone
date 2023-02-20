@@ -104,10 +104,10 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
-            #shopping{
+            #shopping {
               position: relative;
             }
-            .dropDown-shop{
+            .dropDown-shop {
               position: absolute;
               width: 12%;
               height: 100%;
@@ -115,27 +115,27 @@ header {
               z-index: 1;
               border-radius: 5px;
               border: #999999 solid 1px;
-              box-shadow:  1px 0px 3px 0px rgba(0, 0, 0, 0.75);
+              box-shadow: 1px 0px 3px 0px rgba(0, 0, 0, 0.75);
               background-color: #fff;
               display: none;
-              .empty{
-              margin-top: 35px;
+              .empty {
+                margin-top: 35px;
                 text-align: center;
                 color: #384aeb;
                 font-size: 18px;
                 font-family: "Oswald", sans-serif;
               }
-              }
-              #glass{
-                position: relative;
-              }
-              .search{
+            }
+            #glass {
+              position: relative;
+            }
+            .search {
               position: absolute;
               z-index: 1;
               width: 30%;
               right: 34%;
               top: 20px;
-              padding: 25px ;
+              padding: 25px;
               border: #495057;
               border-radius: 10px;
               font-size: 20px;
@@ -143,11 +143,16 @@ header {
               font-weight: 500;
               color: #384aeb;
               text-align: center;
-              display: none;
-              }
-              .active{
-                display: block;
-              }
+              visibility: hidden;
+              opacity: 0;
+              transition: 0.3s ease;
+              transform: translateY(-100px);
+            }
+            .active {
+              visibility: visible;
+              opacity: 1;
+              transform: translateY(0px);
+            }
             .fa-solid {
               color: #222;
             }
