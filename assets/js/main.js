@@ -89,8 +89,6 @@ function openDropdown() {
   }
 }
 
-
-
 function increment() {
   document.querySelector("#qty").value++;
 }
@@ -156,7 +154,7 @@ let district = false;
 function openDistrict() {
   if (district == false) {
     document.querySelector("#select-list").classList.add("active");
-    district= true;
+    district = true;
   } else {
     document.querySelector("#select-list").classList.remove("active");
     district = false;
