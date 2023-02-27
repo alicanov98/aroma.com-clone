@@ -132,7 +132,7 @@ header {
             .search {
               position: absolute;
               z-index: 1;
-              width: 30%;
+              width: 34%;
               right: 34%;
               top: 20px;
               padding: 25px;
@@ -149,6 +149,7 @@ header {
               transform: translateY(-100px);
             }
             .active {
+              display: block;
               visibility: visible;
               opacity: 1;
               transform: translateY(0px);
