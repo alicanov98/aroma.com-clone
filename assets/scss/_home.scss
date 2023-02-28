@@ -8,22 +8,30 @@ header {
   height: 100px;
   position: relative;
   z-index: 1;
-  .nav-bar {
+  background-color: #fff;
+  .container {
     height: 100%;
-    .container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+    .nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    .logo{
+width: 10%;
+margin-left: 20px;
+    }
       .nav-content {
-        width: 100%;
+        width: 90%;
         display: flex;
         justify-content: space-between;
+        flex: nowrap;
         .nav-list {
+          width: 30%;
           margin: 0 auto;
           display: flex;
           align-items: center;
-          gap: 50px;
+          gap: 20%;
           .nav-item {
             width: 100%;
             height: 100px;
@@ -96,6 +104,7 @@ header {
           }
         }
         .shop-list {
+          width: 33%;
           display: flex;
           align-items: center;
           gap: 20px;
@@ -132,10 +141,10 @@ header {
             .search {
               position: absolute;
               z-index: 1;
-              width: 34%;
-              right: 34%;
+              width: 35%;
+              right: 37%;
               top: 20px;
-              padding: 25px;
+              padding: 1%;
               border: #495057;
               border-radius: 10px;
               font-size: 20px;

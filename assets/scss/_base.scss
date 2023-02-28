@@ -3,12 +3,12 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  &::after{
-      box-sizing: border-box;
+  &::after {
+    box-sizing: border-box;
   }
-  &::before{
-  box-sizing: border-box;
-  } 
+  &::before {
+    box-sizing: border-box;
+  }
 }
 
 body {
@@ -21,14 +21,14 @@ body {
 }
 
 .container {
-  width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    width: 1140px;
+    
   }
 }
 @media (max-width: 992px) {
