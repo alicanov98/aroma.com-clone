@@ -8,68 +8,69 @@
     <title>Document</title>
   </head>
   <body>
-        <!-- Header Start -->
-        <header>
-            <nav class="nav-bar">
-              <div class="container">
-                <a href="./index.html">
-                  <img src="./assets/image/logo.png.webp" alt="logo" />
-                </a>
-                <div class="nav-content">
-                  <ul class="nav-list">
-                    <li class="nav-item">
-                      <a  href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      Shop
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./shop-category.html">Shop Category</a></li>
-                        <li class="dropdown-item"><a href="./product-details.html">Product Details</a></li>
-                        <li class="dropdown-item">
-                          <a href="./product-checkout.html">Product Checkout</a>
-                        </li>
-                        <li class="dropdown-item"><a href="./confirmation.html">Confirmation</a></li>
-                        <li class="dropdown-item"><a href="./shopping-cart.html">Shopping Cart</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      Blog
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
-                        <li class="dropdown-item"><a href="./blog-details.html">Blog Details</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      Pages
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./login.html">Login</a></li>
-                        <li class="dropdown-item"><a href="./register.html">Register</a></li>
-                        <li class="dropdown-item"><a href="./tracking.html">Tracking</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
-                  </ul>
-                  <ul class="shop-list">
-                    <li class="nav-item">
-                      <input type="search" id="search" placeholder="SEARCH" class="search">
-                      <i id="glass" class="fa-solid fa-magnifying-glass" onclick="openCart()"></i>
-                    </li>
-                    <li class="nav-item">
-                      <i id="shopping" class="fa-solid fa-cart-shopping" onclick="openDropdown()" ></i>
-                      <ul class="dropDown-shop">
-                        <li class="dropDown-item"></li>
-                        <p class="empty">Cart is Empty</p>
-                      </ul>
-                    </li>
-                    <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
-          <!-- Header End -->
+    <!-- Header Start -->
+    <header>
+      <div class="container">
+          <nav class="nav-bar">
+          <a href="./index.html">
+            <img src="./assets/image/logo.png.webp" alt="logo" />
+          </a>
+          <div class="nav-content">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                Shop
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./shop-category.html">Shop Category</a></li>
+                  <li class="dropdown-item"><a href="./product-details.html">Product Details</a></li>
+                  <li class="dropdown-item">
+                    <a href="./product-checkout.html">Product Checkout</a>
+                  </li>
+                  <li class="dropdown-item"><a href="./confirmation.html">Confirmation</a></li>
+                  <li class="dropdown-item"><a href="./shopping-cart.html">Shopping Cart</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Blog
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
+                  <li class="dropdown-item"><a href="./blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Pages
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./login.html">Login</a></li>
+                  <li class="dropdown-item"><a href="./register.html">Register</a></li>
+                  <li class="dropdown-item"><a href="./tracking.html">Tracking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul class="shop-list">
+              <li class="nav-item">
+                <input type="search" id="search" placeholder="SEARCH" class="search">
+                <i id="glass" class="fa-solid fa-magnifying-glass" onclick="openCart()"></i>
+              </li>
+              <li class="nav-item">
+                <i id="shopping" class="fa-solid fa-cart-shopping" onclick="openDropdown()" ></i>
+                <ul class="dropDown-shop">
+                  <li class="dropDown-item"></li>
+                  <p class="empty">Cart is Empty</p>
+                </ul>
+              </li>
+              <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
+            </ul>
+          </div>
+        </nav>
+        </div>
+    </header>
+    <!-- Header End -->
     <!--   Main Start -->
     <main>
+      <!-- Start Home Section -->
       <section class="shop-home">
         <div class="container">
           <div class="shop-home-text">
@@ -79,9 +80,131 @@
             </p>
           </div>
         </div>
-      </section> 
-
-           <!-- Subscribe Section Start -->
+      </section>
+      <!-- End Home Section -->
+      <!-- Order Section Start -->
+      <section class="order-details">
+        <div class="container">
+          <p class="order-title">Thank you. Your order has been received.</p>
+          <div class="order-card-box">
+            <div class="order-card">
+              <div class="order-card-content">
+                <h3 class="order-card-title">Order Info</h3>
+                <ul class="order-card-list">
+                  <li class="order-card-item">
+                    <p class="one-text">Order number</p>
+                    <p class="two-text">: 60235</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Date</p>
+                    <p class="two-text">: Oct 03, 2017</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Total</p>
+                    <p class="two-text">: USD 2210</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Payment method</p>
+                    <p class="two-text">: Check payments</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="order-card">
+              <div class="order-card-content">
+                <h3 class="order-card-title">Billing Address</h3>
+                <ul class="order-card-list">
+                  <li class="order-card-item">
+                    <p class="one-text">Street</p>
+                    <p class="two-text">: 56/8 panthapath</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">City</p>
+                    <p class="two-text">: Dhaka</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Country</p>
+                    <p class="two-text">: Bangladesh</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Postcode</p>
+                    <p class="two-text">: 1205</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="order-card">
+              <div class="order-card-content">
+                <h3 class="order-card-title">Shipping Address</h3>
+                <ul class="order-card-list">
+                  <li class="order-card-item">
+                    <p class="one-text">Street</p>
+                    <p class="two-text">: 60235</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Ctiy</p>
+                    <p class="two-text">: Baku</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Countryl</p>
+                    <p class="two-text">: Azerbaijan</p>
+                  </li>
+                  <li class="order-card-item">
+                    <p class="one-text">Postcode</p>
+                    <p class="two-text">: 1994</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="order-details-table">
+            <h2>Order Details</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><p>Pixelstore fresh Blackberry</p></td>
+                  <td><h5>x 02</h5></td>
+                  <td><p>$720.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Pixelstore fresh Blackberry</p></td>
+                  <td><h5>x 02</h5></td>
+                  <td><p>$720.00</p></td>
+                </tr>
+                <tr>
+                  <td><p>Pixelstore fresh Blackberry</p></td>
+                  <td><h5>x 02</h5></td>
+                  <td><p>$720.00</p></td>
+                </tr>
+                <tr>
+                  <td><h4 >Subtotal</h4></td>
+                  <td><h5></h5></td>
+                  <td><p>$2160.00</p></td>
+                </tr>
+                <tr>
+                  <td><h4 >Shipping</h4></td>
+                  <td><h5></h5></td>
+                  <td><p>Flat rate: $50.00</p></td>
+                </tr>
+                <tr class="last-total">
+                  <td><h4>TOTAL</h4></td>
+                  <td><h5></h5></td>
+                  <td><h4>$2210.00</h4></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      <!-- Order Section End -->
+      <!-- Subscribe Section Start -->
       <section class="subscribe">
         <div class="container">
           <div class="subscribe-card">
@@ -133,7 +256,9 @@
               <h4 class="quick-title">Quick Links</h4>
               <ul class="quick-list">
                 <li class="quick-item"><a href="./index.html">Home</a></li>
-                <li class="quick-item"><a href="./shop-category.html">Shop</a></li>
+                <li class="quick-item">
+                  <a href="./shop-category.html">Shop</a>
+                </li>
                 <li class="quick-item"><a href="">Blog</a></li>
                 <li class="quick-item"><a href="#">Product</a></li>
                 <li class="quick-item"><a href="#">Brand</a></li>
@@ -195,18 +320,18 @@
       </div>
     </footer>
     <!-- Footer End -->
-        <!-- ---------- -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <!-- --------------- -->
-        <!-- My JS Start-->
-        <script src="./assets/js/main.js"></script>
-        <!--    My JS End    -->
-        <!-- --------------- -->
-        <!--Fontawesome Start-->
-        <script
-          src="https://kit.fontawesome.com/4679a6cec2.js"
-          crossorigin="anonymous"
-        ></script>
-        <!--Fontawesome End-->
+    <!-- ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- --------------- -->
+    <!-- My JS Start-->
+    <script src="./assets/js/main.js"></script>
+    <!--    My JS End    -->
+    <!-- --------------- -->
+    <!--Fontawesome Start-->
+    <script
+      src="https://kit.fontawesome.com/4679a6cec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Fontawesome End-->
   </body>
 </html>

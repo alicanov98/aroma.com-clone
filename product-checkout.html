@@ -8,68 +8,69 @@
     <title>Document</title>
   </head>
   <body>
-        <!-- Header Start -->
-        <header>
-            <nav class="nav-bar">
-              <div class="container">
-                <a href="./index.html">
-                  <img src="./assets/image/logo.png.webp" alt="logo" />
-                </a>
-                <div class="nav-content">
-                  <ul class="nav-list">
-                    <li class="nav-item">
-                      <a  href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      Shop
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./shop-category.html">Shop Category</a></li>
-                        <li class="dropdown-item"><a href="./product-details.html">Product Details</a></li>
-                        <li class="dropdown-item">
-                          <a href="./product-checkout.html">Product Checkout</a>
-                        </li>
-                        <li class="dropdown-item"><a href="./confirmation.html">Confirmation</a></li>
-                        <li class="dropdown-item"><a href="./shopping-cart.html">Shopping Cart</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      Blog
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
-                        <li class="dropdown-item"><a href="./blog-details.html">Blog Details</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      Pages
-                      <ul class="dropdown-list">
-                        <li class="dropdown-item"><a href="./login.html">Login</a></li>
-                        <li class="dropdown-item"><a href="./register.html">Register</a></li>
-                        <li class="dropdown-item"><a href="./tracking.html">Tracking</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item"><a href="./contact.html">Contact</a></li>
-                  </ul>
-                  <ul class="shop-list">
-                    <li class="nav-item">
-                      <input type="search" id="search" placeholder="SEARCH" class="search">
-                      <i id="glass" class="fa-solid fa-magnifying-glass" onclick="openCart()"></i>
-                    </li>
-                    <li class="nav-item">
-                      <i id="shopping" class="fa-solid fa-cart-shopping" onclick="openDropdown()" ></i>
-                      <ul class="dropDown-shop">
-                        <li class="dropDown-item"></li>
-                        <p class="empty">Cart is Empty</p>
-                      </ul>
-                    </li>
-                    <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </header>
-          <!-- Header End -->
+    <!-- Header Start -->
+    <header>
+      <div class="container">
+          <nav class="nav-bar">
+          <a href="./index.html">
+            <img src="./assets/image/logo.png.webp" alt="logo" />
+          </a>
+          <div class="nav-content">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a class="active" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                Shop
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./shop-category.html">Shop Category</a></li>
+                  <li class="dropdown-item"><a href="./product-details.html">Product Details</a></li>
+                  <li class="dropdown-item">
+                    <a href="./product-checkout.html">Product Checkout</a>
+                  </li>
+                  <li class="dropdown-item"><a href="./confirmation.html">Confirmation</a></li>
+                  <li class="dropdown-item"><a href="./shopping-cart.html">Shopping Cart</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Blog
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./blog.html">Blog</a></li>
+                  <li class="dropdown-item"><a href="./blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                Pages
+                <ul class="dropdown-list">
+                  <li class="dropdown-item"><a href="./login.html">Login</a></li>
+                  <li class="dropdown-item"><a href="./register.html">Register</a></li>
+                  <li class="dropdown-item"><a href="./tracking.html">Tracking</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <ul class="shop-list">
+              <li class="nav-item">
+                <input type="search" id="search" placeholder="SEARCH" class="search">
+                <i id="glass" class="fa-solid fa-magnifying-glass" onclick="openCart()"></i>
+              </li>
+              <li class="nav-item">
+                <i id="shopping" class="fa-solid fa-cart-shopping" onclick="openDropdown()" ></i>
+                <ul class="dropDown-shop">
+                  <li class="dropDown-item"></li>
+                  <p class="empty">Cart is Empty</p>
+                </ul>
+              </li>
+              <li class="nav-item shop-item"><a href="#">Buy Now</a></li>
+            </ul>
+          </div>
+        </nav>
+        </div>
+    </header>
+    <!-- Header End -->
     <!--   Main Start -->
     <main>
+      <!-- Title Section Start -->
       <section class="shop-home">
         <div class="container">
           <div class="shop-home-text">
@@ -79,34 +80,223 @@
             </p>
           </div>
         </div>
-      </section> 
-         <!-- Subscribe Section Start -->
-         <section class="subscribe">
-          <div class="container">
-            <div class="subscribe-card">
-              <h3 class="subscribe-title">Get Update From Anywhere</h3>
-              <p class="subscribe-content">
-                Bearing Void gathering light light his eavening unto dont afraid
-              </p>
-              <form class="subscribe-form">
-                <div class="subscribe-signUp">
-                  <input
-                    class="subscribe-input"
-                    type="email"
-                    name="EMAIL"
-                    placeholder="Your Email Address "
-                    required
-                  />
-                  <div class="info"></div>
+      </section>
+      <!-- Title Section End -->
+      <!--Checkout Section Start -->
+      <section class="checkout">
+        <div class="container">
+          <div class="checkout-form">
+            <div class="checkout-form-header">
+              <h2>
+                Returning Customer?
+                <a href="#">Click here to login</a>
+              </h2>
+            </div>
+            <p>
+              If you have shopped with us before, please enter your details in
+              the boxes below. If you are a new customer, please proceed to the
+              Billing & Shipping section.
+            </p>
+            <form class="checkout-login">
+              <div class="checkout-form-input">
+                <input
+                  class="input-login"
+                  type="text"
+                  placeholder="Username or Email*"
+                />
+                <input
+                  class="input-login"
+                  type="text"
+                  placeholder="Password*"
+                />
+              </div>
+              <div class="btn-checkout">
+                <a class="btn" href="#">Login</a>
+                <input class="checkbox" type="checkbox" />
+                <label>Remember me</label>
+              </div>
+              <a class="lost-password" href="#">Lost your password?</a>
+            </form>
+          </div>
+          <div class="checkout-form">
+            <div class="checkout-form-header">
+              <h2>
+                Have a coupon?
+                <a href="#">Click here to enter your code</a>
+              </h2>
+            </div>
+            <input
+              type="text"
+              class="coupon-code"
+              placeholder="Enter coupon code"
+            />
+            <a class="btn-coupon" href="#">Apply Coupon</a>
+          </div>
+          <div class="billing-details">
+            <div class="billing-left">
+              <h3 class="title-billing">Billing Details</h3>
+              <form class="billing-form">
+                <div class="billing-form-input">
+                  <input class="billing-input" type="text" />
+                  <input class="billing-input" type="text" />
                 </div>
-                <button class="subscribe-btn" onclick="btnOnClick()">
-                  Subscribe Now
-                </button>
+                <div class="billing-form-input">
+                  <input class="billing-input-full" type="text" placeholder="Comapny name"/>
+                </div>
+                <div class="billing-form-input">
+                  <input class="billing-input" type="text" />
+                  <input class="billing-input" type="text" />
+                </div>
+                <div class="select-input" id="select-input" onclick="openSelectCart()">
+                  <span>Country</span>
+                  <ul class="select-list">
+                    <li data-value="1" class="select-item">Azerbaijan</li>
+                    <li data-value="2" class="select-item">Turkey</li>
+                    <li data-value="3" class="select-item">Iran</li>
+                  </ul>
+                </div>
+                <div class="billing-form-input">
+                  <input class="billing-input-full" type="text" />
+                </div>
+                <div class="billing-form-input">
+                  <input class="billing-input-full" type="text" />
+                </div>
+                <div class="billing-form-input">
+                  <input class="billing-input-full" type="text" />
+                </div>
+                <div class="select-input"  onclick="openDistrict()">
+                  <span>District</span>
+                  <ul class="select-list" id="select-list" >
+                    <li data-value="1" class="select-item">District 1</li>
+                    <li data-value="2" class="select-item">District 2</li>
+                    <li data-value="3" class="select-item">District 3</li>
+                  </ul>
+                </div>
+                <div class="billing-form-input">
+                  <input class="billing-input-full" type="text" placeholder="Postcode/ZIP"/>
+                </div>
+                <div class="billing-form-input" style="gap:0">
+                  <input class="checkbox-billing" type="checkbox" />
+                  <label>Create an account?</label>
+                </div>
+                <div class="billing-bottom">
+                  <div class="creat-accound">
+                    <h3>Shipping Details</h3>
+                    <input type="checkbox" />
+                    <label >Ship to a different address?</label>
+                  </div>
+                  <textarea
+                    name="message"
+                    class="form-control"
+                    id="message"
+                    placeholder="Order Notes"
+                    rows="1" 
+                  ></textarea>
+                </div>
               </form>
             </div>
+            <div class="billing-right">
+              <div class="order-box">
+                <h2>Your Order</h2>
+                <ul class="billing-product-list">
+                  <li class="billing-product-item">
+                    <a href="#">
+                      <h4>Product <span>Total</span></h4>
+                    </a>
+                  </li>
+                  <li class="billing-product-item">
+                    <a href="#">
+                      Fresh Blackberry
+                      <span class="middle">x 02</span>
+                      <span class="last">$720.00</span>
+                    </a>
+                  </li>
+                  <li class="billing-product-item">
+                    <a href="#">
+                      Fresh Tomatoes
+                      <span class="middle">x 02</span>
+                      <span class="last">$720.00</span>
+                    </a>
+                  </li>
+                  <li class="billing-product-item">
+                    <a href="#">
+                      Fresh Brocoli
+                      <span class="middle" style="margin-left: 48px;">x 02</span>
+                      <span class="last">$720.00</span>
+                    </a>
+                  </li>
+                </ul>
+                <ul class="total-list">
+                  <li class="total-item">
+                    <a href="#">Subtotal<span>$2160.00</span></a>
+                  </li>
+                  <li class="total-item">
+                    <a href="#">Shipping<span>Flat rate: $50.00</span></a>
+                  </li>
+                  <li class="total-item">
+                    <a href="#">Total<span>$2210.00</span></a>
+                  </li>
+                </ul>
+                <div class="payment">
+                  <div class="radio-btn">
+                    <input  class="radio" type="radio" />
+                    <label class="payPal">Check payments</label>
+                  </div>
+                  <p class="payPal-text">
+                    Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.
+                  </p>
+                </div>
+                <div class="payment">
+                  <div class="radio-btn">
+                    <input class="radio" type="radio" />
+                    <label class="payPal">Paypal</label>
+                    <img src="./assets/image/card.jpg.webp" alt="image" />
+                  </div>
+                  <p class="payPal-text">
+                    Pay via PayPal; you can pay with your credit card if you don’t have a PayPal account.
+                  </p>
+                </div>
+                <div class="payment" >
+                  <input class="radio" type="checkbox" />
+                  <label class="payPal">I’ve read and accept the</label>
+                  <a href="#">terms & conditions*</a>
+                </div>
+                <div class="btn-payment-bilding">
+                  <a class="btn-payPal" href="#">Proceed to Paypal</a>
+                </div>
+              </div>
+            </div>
           </div>
-        </section>
-        <!-- Subscribe Section End -->
+        </div>
+      </section>
+      <!--Checkout Section End -->
+      <!-- Subscribe Section Start -->
+      <section class="subscribe">
+        <div class="container">
+          <div class="subscribe-card">
+            <h3 class="subscribe-title">Get Update From Anywhere</h3>
+            <p class="subscribe-content">
+              Bearing Void gathering light light his eavening unto dont afraid
+            </p>
+            <form class="subscribe-form">
+              <div class="subscribe-signUp">
+                <input
+                  class="subscribe-input"
+                  type="email"
+                  name="EMAIL"
+                  placeholder="Your Email Address "
+                  required
+                />
+                <div class="info"></div>
+              </div>
+              <button class="subscribe-btn" onclick="btnOnClick()">
+                Subscribe Now
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Subscribe Section End -->
     </main>
     <!--   Main End   -->
     <!-- ------------ -->
@@ -132,7 +322,9 @@
               <h4 class="quick-title">Quick Links</h4>
               <ul class="quick-list">
                 <li class="quick-item"><a href="./index.html">Home</a></li>
-                <li class="quick-item"><a href="./shop-category.html">Shop</a></li>
+                <li class="quick-item">
+                  <a href="./shop-category.html">Shop</a>
+                </li>
                 <li class="quick-item"><a href="#">Blog</a></li>
                 <li class="quick-item"><a href="#">Product</a></li>
                 <li class="quick-item"><a href="#">Brand</a></li>
@@ -194,18 +386,18 @@
       </div>
     </footer>
     <!-- Footer End -->
-        <!-- ---------- -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-        <!-- --------------- -->
-        <!-- My JS Start-->
-        <script src="./assets/js/main.js"></script>
-        <!--    My JS End    -->
-        <!-- --------------- -->
-        <!--Fontawesome Start-->
-        <script
-          src="https://kit.fontawesome.com/4679a6cec2.js"
-          crossorigin="anonymous"
-        ></script>
-        <!--Fontawesome End-->
+    <!-- ---------- -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- --------------- -->
+    <!-- My JS Start-->
+    <script src="./assets/js/main.js"></script>
+    <!--    My JS End    -->
+    <!-- --------------- -->
+    <!--Fontawesome Start-->
+    <script
+      src="https://kit.fontawesome.com/4679a6cec2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--Fontawesome End-->
   </body>
 </html>

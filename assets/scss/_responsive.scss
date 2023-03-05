@@ -1,0 +1,52 @@
+@media (max-width:1024px){
+    header {
+        height: 80px;
+        position: relative;
+        z-index: 1;
+        .container {
+            width: 95%;
+            height: 100%;
+            margin: 0 25px;
+           .nav-bar {
+            width: 100%;
+            height: 100%;
+            .nav-content{
+                .nav-list{
+                        gap: 10%;
+                        .nav-item{
+                            &:hover{
+                                .dropdown-list{
+                                    top: 91px;
+                                }
+                            }
+                            .dropdown-list{
+                                min-width: 150px;
+                                .dropdown-item{
+                                    a{
+                                        line-height: 30px;
+                                        padding: 0px 30px;
+                                        font-size: 11px;
+                                    }
+                                }
+                            }
+                        }
+                }
+            }
+        }
+    }
+      }
+}
+@media (max-width:991px){
+    header {
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        .nav-bar {
+            .nav-content {
+              display: none;
+            }
+        }
+      }
+}
+}
+
